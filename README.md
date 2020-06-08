@@ -11,5 +11,7 @@ If the oven orchestrator thread can't find a suitable oven, it is sent back to t
 At the same time, the storage orchestrator thread checks for the used storage and attemps to cook the stored products.
 The oven orchestrator thread checks if any products are already cooked in it's associated ovens, and if so, it's sent back to the originating line wich will redirect it to the associated end assembly line where coocked products are queued.
 
+check the console output to follow the factory operation in a detailed manner.
+
 note: as I ran out of time i left obvervations along the code to explain how some things should be implemented in a real scenario
 
